@@ -1,0 +1,58 @@
+I"�<h1 id="web应用软件开发实训---第二次作业---开发一个静态网站">WEB应用软件开发实训 - 第二次作业 - 开发一个静态网站</h1>
+<p><a href="simple599.github.io">公网网址</a>
+<a href="https://github.com/simple599/simple599.github.io">仓库</a></p>
+
+<h2 id="一网站目录结构">一、网站目录结构</h2>
+<p><img src="https://i.loli.net/2021/05/16/ypOiSzUAHQ6h9VI.png" alt="index.html - qqq _WSL_ Ubuntu-20.04_ - Visual Studio Code 2021_5_16 21_54_53.png" />
+<img src="https://i.loli.net/2021/05/16/nCNhEsm318Djw9i.png" alt="index.html - qqq _WSL_ Ubuntu-20.04_ - Visual Studio Code 2021_5_16 22_07_46.png" /></p>
+
+<h2 id="二网站截图">二、网站截图</h2>
+
+<h2 id="截图内容">截图内容：</h2>
+
+<h2 id="--首页">- 首页</h2>
+
+<p><img src="https://i.loli.net/2021/05/16/adcqwyiW8DlIYjs.png" alt="Home - 用户配置 1 - Microsoft​ Edge 2021_5_16 22_23_35.png" /></p>
+
+<h2 id="--blog列表列">- Blog列表列</h2>
+
+<p><img src="https://i.loli.net/2021/05/16/P4Mrm1AFDo5Ti9O.png" alt="Home - 用户配置 1 - Microsoft​ Edge 2021_5_16 22_24_00.png" /></p>
+
+<h2 id="--两篇post">- 两篇Post</h2>
+
+<p><img src="https://i.loli.net/2021/05/16/iHATjuUhkeg1OoV.png" alt="post 1" /></p>
+
+<p><img src="https://i.loli.net/2021/05/16/5lcLSVZMIb7EBy3.png" alt="post 2" /></p>
+
+<h2 id="--staff列表页">- Staff列表页</h2>
+
+<h2 id="--一个staff列表页">- 一个Staff列表页</h2>
+
+<p><img src="https://i.loli.net/2021/05/16/UgfSeNwlT3varnO.png" alt="Home - 用户配置 1 - Microsoft​ Edge 2021_5_16 22_24_27.png" /></p>
+
+<h2 id="--一个作者简介页面">- 一个作者简介页面</h2>
+
+<p><img src="https://i.loli.net/2021/05/16/cP2klWDxo5wOgb1.png" alt="Jill - 用户配置 1 - Microsoft​ Edge 2021_5_16 22_43_38.png" /></p>
+
+<h2 id="--一个about页面">- 一个About页面</h2>
+
+<p><img src="https://i.loli.net/2021/05/16/P4Mrm1AFDo5Ti9O.png" alt="一个about页面" /></p>
+
+<h2 id="三实验过程">三、实验过程</h2>
+
+<h2 id="在wsl上安装jekyllwindows-10上安装vscode和remote插件通过remote插件连接wsl通过vscode完成讲义中的1-9步jekyll-serve运行调试网站将markdown练习内容以帖子的形式发布到网站上之后在wsl上安装nginx通过jekyll-build编译网站最后将网站源代码push到github上并通过githubio网站检查代码的正确性">在WSL上安装Jekyll，Windows 10上安装VSCode和Remote插件，通过Remote插件连接WSL。通过VSCode，完成讲义中的1-9步，’‘jekyll serve’‘运行调试网站，将Markdown练习内容以帖子的形式发布到网站上。之后，在WSL上安装nginx,通过‘’jekyll build’‘编译网站。最后，将网站源代码push到Github上，并通过Github.io网站检查代码的正确性。</h2>
+
+<h2 id="四总结">四、总结</h2>
+
+<h2 id="遇到的问题">遇到的问题：</h2>
+
+<h2 id="1有两个分支一个没有用是多余的jekyll-serve时总是出现错误一直没有找到错误原因解决方法cd进到仓库的目录下再jekyll-serve">1、有两个分支，一个没有用是多余的，Jekyll serve时总是出现错误，一直没有找到错误原因。解决方法：cd进到仓库的目录下再Jekyll serve</h2>
+
+<h2 id="2在github远程创建仓库后git-push出现错误-error-failed-to-push-some-refs-to-httpsgithubcomxxxxgit解决办法强制push本地仓库到远程--git-push--u-origin-master--f-">2、在github远程创建仓库后，git push出现错误 error: failed to push some refs to ‘https://github.com/xxxx.git’。解决办法：强制push本地仓库到远程 $ git push -u origin master -f 。</h2>
+
+<h2 id="3push成功但是打开网站却没有相应内容解决办法反复研究发现是因为github上创建了两个分支导致没有push到主分支上这是需要将两个branch合并到master分支上然后重新push一次即可">3、push成功，但是打开网站却没有相应内容。解决办法：反复研究发现是因为Github上创建了两个分支，导致没有push到主分支上。这是需要将两个branch合并到master分支上，然后重新push一次即可。</h2>
+
+<h2 id="4编写实验报告时本地图片在网页上无法显示解决办法通过图床-smms上传本地图片">4、编写实验报告时，本地图片在网页上无法显示。解决办法：通过图床 sm.ms上传本地图片。</h2>
+
+<h2 id="心得体会本次实验学习到了开发静态网站的方法以及-git-push-的相关操作学习了以markdown编写实验报告更好的利用了查询软件来解决遇到的问题">心得体会：本次实验学习到了开发静态网站的方法，以及 git push 的相关操作，学习了以Markdown编写实验报告，更好的利用了查询软件来解决遇到的问题。</h2>
+:ET
